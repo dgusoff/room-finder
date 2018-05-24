@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "room-finder",
+    "libraryId": "91c77398-d4d7-4293-84f4-98ddf837cf0f",
+    "environment": "spo"
+  }
+}

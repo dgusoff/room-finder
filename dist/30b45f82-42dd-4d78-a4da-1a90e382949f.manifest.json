@@ -1,0 +1,52 @@
+{
+  "id": "30b45f82-42dd-4d78-a4da-1a90e382949f",
+  "alias": "RoomFinderWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "room-finder"
+      },
+      "description": {
+        "default": "room-finder description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "room-finder"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "room-finder-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "room-finder-web-part": {
+        "type": "path",
+        "path": "dist/room-finder-web-part.js"
+      },
+      "RoomFinderWebPartStrings": {
+        "defaultPath": "lib/webparts/roomFinder/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.4.1",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.4.1",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      }
+    }
+  }
+}

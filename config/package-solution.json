@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "room-finder-client-side-solution",
+    "id": "91c77398-d4d7-4293-84f4-98ddf837cf0f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/room-finder.sppkg"
+  }
+}
